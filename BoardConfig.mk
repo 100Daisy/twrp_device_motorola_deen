@@ -85,10 +85,6 @@ TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_EXTRA_LANGUAGES := true
 
-
-
-
-
 # SHRP
 SHRP_DEVICE_CODE := deen
 SHRP_PATH := device/motorola/$(SHRP_DEVICE_CODE)
