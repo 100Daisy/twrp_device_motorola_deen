@@ -92,9 +92,10 @@ TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_EXTRA_LANGUAGES := true
 
-# Recovery Installer
-USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := $(DEVICE_PATH)/installer
+
+
+
+
 # SHRP
 SHRP_DEVICE_CODE := deen
 SHRP_PATH := device/motorola/$(SHRP_DEVICE_CODE)

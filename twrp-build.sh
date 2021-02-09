@@ -14,12 +14,8 @@ git clone --depth=1 https://github.com/100Daisy/twrp_device_motorola_deen -b shr
 # Build recovery image
 export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_deen-eng; make -j$(nproc --all) recoveryimage
 # Make the recovery installer
-cp -fr device/motorola/deen/installer out/target/product/deen
 cd out/target/product/deen
-cp -f ramdisk-recovery.cpio installer
-cd installer
-zip -qr recovery-installer ./
-cd .. &&  cp -f installer/recovery-installer.zip .
+ls
 # Rename and copy the files
 date_time=$(date +"%d%m%Y%H%M")
 mkdir ~/final
