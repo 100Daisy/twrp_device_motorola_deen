@@ -116,7 +116,7 @@ TWRP_INCLUDE_LOGCAT := true
 endif
 
 TARGET_RECOVERY_DEVICE_MODULES += \
-	android.hardware.boot@1.0 \
+    android.hardware.boot@1.0 \
     libicuuc \
     libxml2 \
     libion \
