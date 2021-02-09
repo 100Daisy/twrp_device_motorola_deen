@@ -77,6 +77,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 AB_OTA_UPDATER := true
 TARGET_OTA_ASSERT_DEVICE := deen,deen_sprout
+SHRP_AB := true
 
 # TWRP Configuration
 TW_USE_TOOLBOX := true
@@ -94,6 +95,18 @@ TW_EXTRA_LANGUAGES := true
 # Recovery Installer
 USE_RECOVERY_INSTALLER := true
 RECOVERY_INSTALLER_PATH := $(DEVICE_PATH)/installer
+# SHRP
+SHRP_DEVICE_CODE := deen
+SHRP_PATH := device/motorola/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := GitDaisy
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A/B
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
 
 # Debugging (trip the flag)
 ifeq ($(strip $(TW_DEBUG_BUILD)),)
