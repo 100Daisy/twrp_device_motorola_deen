@@ -18,7 +18,7 @@ export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_deen-eng
 cd out/target/product/deen
 ls
 # Rename and copy the files
-date_time=$(date +"%d%m%Y%H%M")
+date_time=$(date +"%H%M%d%m%Y")
 mkdir ~/final
 cp recovery.img ~/final/SHRP_v3.0_stable-Unofficial_deen-"$date_time".img
 cp SHRP*.zip ~/final/
