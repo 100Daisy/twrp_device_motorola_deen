@@ -97,6 +97,8 @@ SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_NOTCH := true
 SHRP_EXPRESS := true
+SHRP_STATUSBAR_RIGHT_PADDING := 20
+SHRP_STATUSBAR_LEFT_PADDING := 20
 
 # Debugging (trip the flag)
 ifeq ($(strip $(TW_DEBUG_BUILD)),)
