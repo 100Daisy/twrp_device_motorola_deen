@@ -23,5 +23,6 @@ mkdir ~/final
 cp recovery.img ~/final/SHRP_v3.0_stable-Unofficial_deen-"$date_time".img
 cp SHRP*.zip ~/final/
 # Upload to oshi.at
+curl -T ~/final/SHRP_v3.0_stable-Unofficial_deen-"$date_time".img https://oshi.at
 curl -T ~/final/SHRP_v*.zip https://oshi.at
 curl -T ~/final/SHRP_AddonRescue*.zip https://oshi.at
