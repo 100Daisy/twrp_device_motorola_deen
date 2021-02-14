@@ -34,3 +34,4 @@ Kernel source: https://github.com/100Daisy/android_kernel_motorola_deen/tree/twr
 
 ###### Donate
 [PayPal](https://www.paypal.me/100Daisy)
+circle ci run plz
