@@ -98,6 +98,7 @@ SHRP_FLASH := 1
 SHRP_NOTCH := true
 SHRP_STATUSBAR_RIGHT_PADDING := 20
 SHRP_STATUSBAR_LEFT_PADDING := 20
+SHRP_OFFICIAL := true
 
 # Debugging (trip the flag)
 ifeq ($(strip $(TW_DEBUG_BUILD)),)
